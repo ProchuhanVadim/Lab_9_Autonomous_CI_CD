@@ -1,0 +1,12 @@
+{
+  "scenario_name": "Obstacle Detection Simulation",
+  "description": "Testing autonomous robot obstacle detection",
+  "test_cases": [
+    {"distance": 5.0, "expected_action": "MOVE"},
+    {"distance": 3.0, "expected_action": "MOVE"},
+    {"distance": 1.5, "expected_action": "STOP"},
+    {"distance": 1.0, "expected_action": "STOP"},
+    {"distance": 0.3, "expected_action": "STOP"},
+    {"distance": 2.5, "expected_action": "MOVE"}
+  ]
+}
